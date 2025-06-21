@@ -1,33 +1,57 @@
-# Student Dropout Prediction – Group Project
+# Student Dropout Prediction
 
-This project was completed as part of the Business Data Science and Analytics graduate program at Angelo State University. The objective was to use historical student data to identify patterns that contribute to dropout risk and to develop predictive models that can support early intervention efforts.
+A Jupyter Notebook project predicting student dropout risk using regression and clustering techniques. This project was completed as part of the Business Data Science and Analytics graduate program at Angelo State University.
 
-## Project Overview
+## Setup & Dependencies
 
-We analyzed student academic behavior and resource usage data to predict the likelihood of student success or dropout. The project involved data wrangling, exploratory data analysis, regression modeling, and unsupervised learning techniques.
+To run this project locally:
 
-## Key Components
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Jane0622/student-dropout-prediction.git
+   cd student-dropout-prediction
+````
 
-- **Project_Final_Report.ipynb**: Final Jupyter Notebook containing all code, visualizations, and analysis.
-- **Data Cleaning and Preparation**: Handling missing values, standardizing data types, and feature engineering.
-- **Exploratory Data Analysis**: Visualizations and correlations to understand the dataset.
-- **Regression Models**: Linear Regression, Multiple Linear Regression, and Logistic Regression to predict dropout probability.
-- **Classification and Clustering**: Decision Tree and KMeans Clustering to identify at-risk students.
-- **Model Evaluation**: Accuracy, precision, recall, and confusion matrix were used to assess performance.
+*Note: This project was developed and run using Google Colab, so dependencies are managed within the notebook.*
 
-## Technologies Used
+## Repository Structure
 
-- Python (pandas, numpy, scikit-learn, seaborn, matplotlib)
-- Jupyter Notebook (via Google Colab)
+```
+student-dropout-prediction/
+├── Project_Final_Report.ipynb     # Final notebook with full analysis
+├── README.md                      # Project description and documentation
+├── requirements.txt               # (Optional) List of required packages
+```
 
-## Team Members
+## Data Source
 
-- Jane Ha (Data Visualization, Final Report Integration)
-- Aaron Alacar
-- Alinsandra Lorn
+The dataset includes student academic performance, attendance, and resource usage. Data was provided for academic purposes and cleaned for analysis within the notebook.
 
-*Note: This project was developed collaboratively, and I received full permission from team members to publish this version to my GitHub for portfolio purposes.*
+## Project Highlights
+
+* **Data Cleaning and Preparation**: Missing values handled and features engineered for analysis.
+* **Exploratory Data Analysis (EDA)**: Correlation matrix, distribution plots, and outlier detection.
+* **Regression Models**: Linear Regression, Multiple Linear Regression, and Logistic Regression.
+* **Classification and Clustering**: Decision Tree Classifier and KMeans Clustering to identify patterns in student success and dropout rates.
+* **Evaluation Metrics**: Accuracy, precision, recall, and confusion matrix.
+
+## Usage
+
+To view the analysis and results, open `Project_Final_Report.ipynb` in Jupyter Notebook or view it directly in GitHub.
+
+## Conclusion & Next Steps
+
+The model helped identify potential dropout risks using behavioral and academic indicators. For future improvements, we suggest tuning model parameters, experimenting with ensemble methods, and deploying an interactive dashboard for early intervention support.
+
+## Contributors
+
+* Jane Ha – Data Visualization, Final Report Integration
+* Aaron Alacar
+* Alinsandra Lorn
+
+*This project was developed collaboratively and is uploaded with full permission from all group members.*
 
 ## License
 
-This project is for academic and portfolio purposes only.
+This repository is intended for educational and portfolio purposes only. Commercial use or distribution is not permitted without written consent.
+
