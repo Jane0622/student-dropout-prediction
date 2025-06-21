@@ -1,3 +1,7 @@
+
+
+
+````markdown
 # Student Dropout Prediction
 
 A Jupyter Notebook project predicting student dropout risk using regression and clustering techniques. This project was completed as part of the Business Data Science and Analytics graduate program at Angelo State University.
@@ -54,4 +58,7 @@ The model helped identify potential dropout risks using behavioral and academic 
 ## License
 
 This repository is intended for educational and portfolio purposes only. Commercial use or distribution is not permitted without written consent.
+
+
+
 
